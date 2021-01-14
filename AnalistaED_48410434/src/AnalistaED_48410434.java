@@ -1,17 +1,16 @@
 import java.util.*;
 
 
-public class AnalistaED_48410434 {
+public class  AnalistaED_48410434 {
 
     static final double FACTOR_HORA_EXTRA = 1.2;
     private String nombreCompleto, dni;
     private double salarioBasePorHora = 10.56;
 
-    public AnalistaED_48410434(String nombreCompleto, String dni) {
+    public  AnalistaED_48410434(String nombreCompleto, String dni) {
         this.nombreCompleto = nombreCompleto;
         this.dni = dni;
-        
-    }
+            }
 
     public double getSalarioEsteMes(int horasExtra) {
         double cantidadExtra, salarioFinal;
@@ -24,7 +23,7 @@ public class AnalistaED_48410434 {
     // Este método no lo comentaremos con JavaDoc
     public static void main(String[] args) {
         // !!!! MODIFICA TU NOMBRE Y TU DNI EN LA SIGUIENTE LÍNEA        
-        AnalistaED_48410434 emp = new AnalistaED_48410434("SERGIO BADAL", "44654545X");
+        AnalistaED_48410434 emp = new AnalistaED_48410434("Marcos Gonzalez", "48410434B");
         int horasExtra = 2;
         System.out.println("El salario de " + emp.nombreCompleto 
 		+ " este mes será de " + emp.getSalarioEsteMes(horasExtra)
