@@ -10,6 +10,7 @@ public class AnalistaED_48410434 {
     public AnalistaED_48410434(String nombreCompleto, String dni) {
         this.nombreCompleto = nombreCompleto;
         this.dni = dni;
+        
     }
 
     public double getSalarioEsteMes(int horasExtra) {
