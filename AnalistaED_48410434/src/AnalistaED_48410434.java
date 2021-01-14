@@ -18,6 +18,7 @@ public class  AnalistaED_48410434 {
         salarioFinal = this.salarioBasePorHora * 40 * 4 + cantidadExtra;
         salarioFinal = (double) Math.round(salarioFinal * 100d) / 100d;
         return salarioFinal;
+        
     }
 
     // Este método no lo comentaremos con JavaDoc
